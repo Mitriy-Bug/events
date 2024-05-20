@@ -1,5 +1,5 @@
 export default function main() {
-  //document.addEventListener('DOMContentLoaded', () =>{
+  document.addEventListener('DOMContentLoaded', () =>{
     const container = document.querySelector('.container');
     if (container) {
       for(let i = 0; i < 16; i++) {
@@ -25,6 +25,6 @@ export default function main() {
         items[randomNumber].classList.add('active')
       }
     }
-    setInterval(activeItem, 2000)
-  //})
+    setInterval(activeItem, 1000)
+  })
 }
