@@ -1,3 +1,3 @@
 // TODO: write code here
-import main from './main';
-main();
+import Game from './main';
+const game = new Game();
