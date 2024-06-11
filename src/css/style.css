@@ -1,13 +1,31 @@
 body {
     color: #999;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.d-none{
+  display: none!important;
 }
 .container{
   width: 100%;
   max-width: 480px;
   margin: 0 auto;
+  margin-bottom: 20px;
+}
+.containerGame{
   display: flex;
   flex-wrap: wrap;
   border: 1px solid black;
+}
+.containerTablo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #777;
+}
+.containerTablo span, .count{
+  font-size: 40px;
 }
 .item{
   width: 120px;
