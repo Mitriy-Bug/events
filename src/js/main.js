@@ -74,7 +74,9 @@ export default class Game {
     });
   }
   Countdown(callback) {
-    this.containerGame.classList.add("d-none");
+    if(this.containerGame){
+      this.containerGame.classList.add("d-none");
+    }
     let counter = 5; // Количество секунд для отсчета
     let intervalId = setInterval(() => {
       counter--;
